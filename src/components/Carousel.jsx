@@ -27,7 +27,7 @@ const Carousel = ({ cards, handleCardClick }) => {
               onClick={() => handleCardClick(card)}
             >
               <img
-                className="w-full h-[25rem]"
+                className="w-full h-[24rem]"
                 src={card.imgUrl}
                 alt={card.variant}
               />

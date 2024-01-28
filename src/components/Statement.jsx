@@ -1,6 +1,8 @@
 import car from "../assets/car.png";
 import music from "../assets/music.png";
 import arrow from "../assets/arrow.png";
+import Footer from "../components/Footer";
+import dp from "../assets/dp.png";
 
 const statements = [
   {
