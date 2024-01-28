@@ -13,6 +13,7 @@ const Carousel = ({ cards, handleCardClick }) => {
   const handleDotClick = (index) => {
     if (!emblaApi) return;
     emblaApi.scrollTo(index);
+
     updateCurrent();
   };
 
@@ -35,7 +36,6 @@ const Carousel = ({ cards, handleCardClick }) => {
           ))}
         </div>
       </div>
-
       <div className="z-50 absolute -bottom-3 left-0 right-0 flex items-center justify-center">
         {cards.map((_, index) => (
           <button
